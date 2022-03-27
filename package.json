@@ -1,0 +1,26 @@
+{
+  "name": "rbac-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faeshal/rbac-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faeshal/rbac-node/issues"
+  },
+  "homepage": "https://github.com/Faeshal/rbac-node#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "log4js": "^6.4.4",
+    "morgan": "^1.10.0",
+    "pretty-error": "^4.0.0"
+  }
+}
