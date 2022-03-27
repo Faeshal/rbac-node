@@ -1,7 +1,7 @@
 require("pretty-error").start();
 const express = require("express");
 const app = express();
-const PORT = 1000 || process.env.PORT;
+const PORT = 2022 || process.env.PORT;
 const morgan = require("morgan");
 const cityRoutes = require("./route/city");
 const sequelize = require("./model/index");
